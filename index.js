@@ -28,7 +28,8 @@ async function run() {
 
     const database = client.db("carDB");
     const brandCollection = database.collection("brands");
-    
+    // const productCollection = database.collection("products");
+    // const cartsCollection = database.collection("carts");
 
     // brands data read
     app.get('/brands', async (req, res) => {
